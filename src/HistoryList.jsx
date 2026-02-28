@@ -4,7 +4,7 @@ let key_id = 0;
 
 function renderHistory(history) {
     return history.map(registry => {
-        return <li key={key_id++}>{`[${registry.time}] => ${registry.temperature} ºC`}</li>;
+        return <li key={key_id++}>{`[${registry.time}] → ${registry.temperature} ºC`}</li>;
     });
 }
 

@@ -17,6 +17,19 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-li {
+ul.history-list {
   list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: .3em;
+}
+
+button {
+  border: 0px;
+  border-radius: 10px;
+  padding: 1em;
+  margin: .2em;
+  cursor: pointer;
 }

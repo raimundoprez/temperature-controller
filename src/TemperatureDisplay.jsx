@@ -12,7 +12,7 @@ function renderTemperature(temperature) {
 
     return (
         <>
-            <p>{temperature}</p>
+            <p>{temperature} ºC</p>
             <p>{message}</p>
         </>
     );
